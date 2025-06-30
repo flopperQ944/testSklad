@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#grid {
+  position: relative;
+  border: 1px solid #333;
+  margin-top: 20px;
+}
+
+.cell {
+  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #333;
+  user-select: none;
+}
